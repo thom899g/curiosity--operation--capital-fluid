@@ -1,0 +1,11 @@
+This file will contain the Firebase configuration for the web client. However, for the admin SDK, we use the service account key. We'll create two separate files.
+
+Actually, the `firebase_admin` SDK requires the service account key file. We'll call it `serviceAccountKey.json` and note that it must be placed in the root directory.
+
+We'll also create a `config.json` for other configuration.
+
+But to keep it simple, let's just have the service account key and then set the Firestore project ID in the code.
+
+Alternatively, we can have a `config.json` that holds the project ID and other settings, and then load the service account key from a file.
+
+Let's do:
