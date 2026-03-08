@@ -1,0 +1,21 @@
+{
+  "firebase": {
+    "projectId": "capital-fluid"
+  },
+  "chains": {
+    "base": {
+      "rpc_url": "https://mainnet.base.org"
+    },
+    "arbitrum": {
+      "rpc_url": "https://arb1.arbitrum.io/rpc"
+    },
+    "optimism": {
+      "rpc_url": "https://mainnet.optimism.io"
+    }
+  },
+  "scanner_interval_ms": 100,
+  "simulation_fork_url": "https://mainnet.base.org",
+  "learning_engine": {
+    "training_interval_hours": 24
+  }
+}
